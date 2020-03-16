@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivty"
+    android:background="#104e8b">
+
+
+    <LinearLayout
+        android:id="@+id/titleimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="140sp">
+
+        <ImageView
+            android:id="@+id/splash_image"
+            android:layout_width="186dp"
+            android:layout_height="159dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/splashText"
+            android:layout_width="300sp"
+            android:layout_height="70dp"
+            android:text="NEW SMART PARKING SYSTEM"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

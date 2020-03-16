@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70336192973",
+    "firebase_url": "https://new-smart-parking-system.firebaseio.com",
+    "project_id": "new-smart-parking-system",
+    "storage_bucket": "new-smart-parking-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70336192973:android:bab26c6cc5e8d8452ea484",
+        "android_client_info": {
+          "package_name": "com.example.newsmartparkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70336192973-aeu7nuo05l8o0n71ma3qlse31vjdppp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsmartparkingsystem",
+            "certificate_hash": "64d3974119ac7dad83ef6def65d1116ab9d52b39"
+          }
+        },
+        {
+          "client_id": "70336192973-6288cc3khsnr82rlfq4jbiqn1uk8385u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ4leSRBeC-ajcklRv-gCqo1AL87VneUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70336192973-6288cc3khsnr82rlfq4jbiqn1uk8385u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

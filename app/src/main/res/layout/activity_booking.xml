@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/booking_text"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_name_bfbooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_phone_bfbooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:text=""
+            app:met_maxCharacters="11"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_vehicleNumber_bfbooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle Number (i.e : LEM-8090)"
+            android:inputType="text"
+            android:text=""
+            android:textAllCaps="true"
+            android:maxLength="8"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            app:met_baseColor="@color/colorPrimary"
+
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="8"
+            app:met_primaryColor="@color/colorPrimary"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_calender"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/calender" />
+
+            <TextView
+                android:id="@+id/txtCalender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Please pick the date"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text=""/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/img_clock_entry"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/txt_entry_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Please choose the Entry Time"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/img_clock_exit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/clock"/>
+
+            <TextView
+                android:id="@+id/txt_exit_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Please choose the Exit Time "
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btn_confirm_booking"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundbutton"
+                android:text="CONFIRM BOOKING"
+                android:textColor="#ffffff"
+                android:layout_weight="8"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:id="@+id/relLayout"
+    android:orientation="vertical"
+    android:background="#0a1195"
+    tools:context=".Dha_Phase_3_Info">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="Kot Lakhpat"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:id="@+id/v_flipper"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#00d2ff"
+        android:text="Number Of Slots = 7"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#00d2ff"
+        android:text="Opening Timing = 18:00"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#00d2ff"
+        android:textColor="#ffffff"
+        android:text="Closing Timing = 00:00"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btn_booking"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="7"
+            android:textColor="#ffffff"
+            android:background="@drawable/roundbutton"
+            android:text="Parking Slots"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
